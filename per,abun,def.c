@@ -14,7 +14,7 @@ long long main ()
          long long x = a[i];
          if( x==1)
          {
-            prlong longf("deficient\n");
+            printf("deficient\n");
             continue;
          }
 
@@ -37,14 +37,14 @@ long long main ()
 
          if(s==x)
          {
-            prlong longf("perfect\n");
+            printf("perfect\n");
          }
          else if ( s>x)
          {
-            prlong longf("abundant\n");
+            printf("abundant\n");
          }
          else{
-            prlong longf("deficient\n");
+            printf("deficient\n");
          }
     }
 
