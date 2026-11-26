@@ -7,7 +7,7 @@ int main ()
 
   for(int i=0; i<n; i++)
     {
-      scanf("%d", a[i])
+      scanf("%d", &a[i]);// I forgot to put the & sign, ( calling the memory address) and semicolon.
     }
   int b[20];
   //your code here
@@ -15,7 +15,7 @@ int main ()
   for(int i=1; i<n; i++)
     {
 
-      b[i] = a[i-1] + a[i];
+      b[i] = b[i-1] + a[i]; // b instead of a
     }
   
 //print
